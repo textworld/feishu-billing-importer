@@ -1,0 +1,37 @@
+[
+  {
+    "fields": {
+      "导入批次编号": [
+        {
+          "text": "1",
+          "type": "text"
+        }
+      ],
+      "时间": 1766127600000
+    },
+    "record_id": "recv5NKcGRtkdu"
+  },
+  {
+    "fields": {
+      "导入批次编号": [
+        {
+          "text": "2",
+          "type": "text"
+        }
+      ]
+    },
+    "record_id": "recv5NKcGRXx9T"
+  },
+  {
+    "fields": {},
+    "record_id": "recv5NKcGRJtvS"
+  },
+  {
+    "fields": {},
+    "record_id": "recv5NKcGRNt7b"
+  },
+  {
+    "fields": {},
+    "record_id": "recv5NKcGRp5Lj"
+  }
+]

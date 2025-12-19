@@ -93,6 +93,13 @@ class Settings(BaseSettings):
     EMAIL_TEST_USER: EmailStr = "test@example.com"
     FIRST_SUPERUSER: EmailStr
     FIRST_SUPERUSER_PASSWORD: str
+    
+    # 飞书文档配置
+    FEISHU_APP_ID: str | None = None
+    FEISHU_APP_SECRET: str | None = None
+    FEISHU_APP_TOKEN: str | None = None
+    FEISHU_TABLE_ID_BATCH_NUMBER: str | None = None
+    FEISHU_TABLE_ID_BILLING: str | None = None
 
     def _check_default_secret(self, var_name: str, value: str | None) -> None:
         if value == "changethis":
